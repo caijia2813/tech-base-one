@@ -8,9 +8,9 @@
     <body>
         <?php
         //DBへ接続
-        $dsn = 'mysql:dbname=tb230612db;host=localhost';
-        $user = 'tb-230612';
-        $password = 'abd7QBr5sn';
+        $dsn = 'mysql:dbname=****;host=localhost';
+        $user = '*****';
+        $password = '*****';
         $pdo = new PDO($dsn, $user, $password, array(PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING));
          
         //DBへテーブルの作成
